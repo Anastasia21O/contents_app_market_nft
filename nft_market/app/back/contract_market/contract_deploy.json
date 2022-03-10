@@ -1,0 +1,18 @@
+{
+  "message": {
+    "action": [
+      "/terra.wasm.v1beta1.MsgStoreCode"
+    ],
+    "module": [
+      "wasm"
+    ]
+  },
+  "store_code": {
+    "sender": [
+      "terra1rfy4d5glh8tlz99dmzlensqductvflz29wj7tv"
+    ],
+    "code_id": [
+      "46348"
+    ]
+  }
+}

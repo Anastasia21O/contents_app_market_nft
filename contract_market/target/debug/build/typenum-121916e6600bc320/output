@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/virsta/terra/nft-market-contract/contracts/market/target/debug/build/typenum-121916e6600bc320/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/virsta/terra/nft-market-contract/contracts/market/target/debug/build/typenum-121916e6600bc320/out/op.rs

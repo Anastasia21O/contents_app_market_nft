@@ -1,0 +1,17 @@
+{
+  "InitMsg": {
+    "minter": "minter address wallet example: terra1rfy4d5glh8tlz99dmzlensqductvflz29wj7tv",
+    "name": "name(anyone) example: dnft7",
+    "symbol": "symbol(anyone) example: SMB"
+  },
+  "ExecuteMsg_createNFT": {
+    "mint": {
+      "owner": "owner address wallet example: terra1rfy4d5glh8tlz99dmzlensqductvflz29wj7tv",
+      "token_id": "token_id example: ANC",
+      "extension": {
+        "external_url": "url img example: https://ipfs.infura.io/ipfs/Qmf1FKrkPeipuhMdw8LUCXcwgd2QibB9vUmyJsaZXPkBeD"
+      }
+    }
+  }
+}
+

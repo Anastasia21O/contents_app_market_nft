@@ -1,0 +1,122 @@
+{
+  "InitMsg": {
+    "auction_cancel_fee_rate": "Decimal, hz (<=1), example: 1",
+    "max_auction_duration_block": 20,
+    "max_auction_duration_second": 20,
+    "min_increase": "Decimal, example: 2",
+    "owner": "owner address wallet, example: terra1rfy4d5glh8tlz99dmzlensqductvflz29wj7tv"
+  },
+  "ExecuteMsg": [
+    {
+      "update_config": {
+        "min_increase": "not required, Decimal or null, example: 5",
+        "auction_cancel_fee_rate": "not required, Decimal or null, hz (<=1), example: 1",
+        "max_auction_duration_block": 10,
+        "max_auction_duration_second": 10,
+        "owner": "not required, owner address wallet, str or null, example: terra1rfy4d5glh8tlz99dmzlensqductvflz29wj7tv"
+      }
+    },
+    {
+      "add_collection 146A7FE5DDD469D30AF4DF3E22A72C89760E97BEA3EBF28DD990CC39AFDB9704": {
+        "nft_address": "адреса контракту з якого були зроблені nft, example: terra1dk6klcqmd2356pds5x7x6yr638lhmhzr47jtca",
+        "royalties": [
+          {
+            "address": "адреса владельца, example: terra1rfy4d5glh8tlz99dmzlensqductvflz29wj7tv",
+            "royalty_rate": "1"
+          }
+        ],
+        "support_assets": [
+          {
+            "token": {
+              "contract_addr": "запрацювало з адресою до nft контракту, адресу контракту market не перевіряла, example: terra1dk6klcqmd2356pds5x7x6yr638lhmhzr47jtca"
+            }
+          },
+          {
+            "native_token": {
+              "denom": "str, hz"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "update_collection A8AD424D469DDBB21F2015B354E230828035F39F2D1B8A0EC4F4D796877FD08F": {
+        "royalties": [
+          {
+            "address": "not required, terra1rfy4d5glh8tlz99dmzlensqductvflz29wj7tv",
+            "royalty_rate": "not required, 0.5"
+          }
+        ],
+        "nft_address": "required, terra1dk6klcqmd2356pds5x7x6yr638lhmhzr47jtca",
+        "support_assets": [
+          {
+            "token": {
+              "contract_addr": "not required, terra1dk6klcqmd2356pds5x7x6yr638lhmhzr47jtca"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "execute_order": {
+        "order_id": 1
+      }
+    },
+    {
+      "execute_auction": {
+        "order_id": 1
+      }
+    },
+    {
+      "cancel_order": {
+        "order_id": 1
+      }
+    },
+    {
+      "bid": {
+        "bid_price": {
+          "amount": "Uint128, str, number",
+          "info": {
+            "token": {
+              "contract_add": "str, це AssetInfo, воно має і друге значення"
+            }
+          }
+        },
+        "order_id": 1
+      }
+    }
+  ],
+  "QueryMsg": [
+    {
+      "config": {}
+    },
+    {
+      "collection_info": {
+        "nft_address": "str"
+      }
+    },
+    {
+      "collection_infos": {
+        "limit": "int, not required",
+        "start_after": "str, not required"
+      }
+    },
+    {
+      "order": {
+        "order_id": 1
+      }
+    },
+    {
+      "orders": {
+        "limit": "int, not required",
+        "start_after": "str, not required",
+        "seller_address": "(Addr - це str) or null"
+      }
+    },
+    {
+      "execute_fee": {
+        "order_id": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+/home/virsta/contracts/dcw721-contract/target/wasm32-unknown-unknown/release/deps/cw0-7de087ab98743b4c.rmeta: /home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/lib.rs /home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/balance.rs /home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/event.rs /home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/expiration.rs /home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/pagination.rs /home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/payment.rs
+
+/home/virsta/contracts/dcw721-contract/target/wasm32-unknown-unknown/release/deps/libcw0-7de087ab98743b4c.rlib: /home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/lib.rs /home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/balance.rs /home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/event.rs /home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/expiration.rs /home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/pagination.rs /home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/payment.rs
+
+/home/virsta/contracts/dcw721-contract/target/wasm32-unknown-unknown/release/deps/cw0-7de087ab98743b4c.d: /home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/lib.rs /home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/balance.rs /home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/event.rs /home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/expiration.rs /home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/pagination.rs /home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/payment.rs
+
+/home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/lib.rs:
+/home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/balance.rs:
+/home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/event.rs:
+/home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/expiration.rs:
+/home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/pagination.rs:
+/home/virsta/.cargo/registry/src/github.com-1ecc6299db9ec823/cw0-0.8.1/src/payment.rs:
